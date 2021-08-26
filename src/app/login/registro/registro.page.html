@@ -1,0 +1,60 @@
+<ion-content color="primary" class="seccion-login">
+  
+  <img class="img-logo" src="assets/Logo2.png" alt="">
+
+  <ion-text class="ion-text-center">
+    <h2>Iniciar Sesion</h2>
+  </ion-text>
+  
+  <div class="login-form " >
+
+    <div>      
+      <ion-item class="form-input" lines="inset">
+        <ion-icon class="start-icons" slot="start" name="person-outline"></ion-icon>
+        <ion-label position="floating">Nombre Completo <span class="text-danger">*</span></ion-label>
+        <ion-input type="text" [(ngModel)]="text" name="text" required="true"></ion-input>
+      </ion-item>
+     </div>
+   
+    <div>
+      
+    <ion-item class="form-input" lines="inset">
+      <ion-icon class="start-icons" slot="start" name="mail-outline"></ion-icon>
+      <ion-label  position="floating">Usuario o Correo electrónico <span class="text-danger">*</span></ion-label>
+      <ion-input type="text" [(ngModel)]="email" name="email" required="true"></ion-input>
+    </ion-item>
+   </div>
+
+   <div >
+    <ion-item class="form-input " lines="inset">
+      <ion-icon class="start-icons" slot="start" name="lock-closed-outline"></ion-icon>
+      <ion-label position="floating">Contraseña <span class="text-danger">*</span></ion-label>
+      <ion-input name="password" [type]="showPassword ? 'text' : 'password'"  ></ion-input>
+      <ion-icon class="eye-icon" slot="end" [name]="passwordToggleIcon" (click)="togglePassword()"></ion-icon>
+      
+    </ion-item>
+  </div>
+      
+  </div>
+  <!-- Recordar contraseña check box -->
+  <!-- <ion-item class="ion-padding-start" lines="none">
+    <p>Recordarme</p>
+    <ion-checkbox color="secondary"  slot="start"></ion-checkbox>
+  </ion-item>  -->
+  
+ <div class="action-button ">
+    
+      <ion-button class="login-button"
+      routerLink="/login"
+      color="secondary"  type="submit"   >Registrarme</ion-button> 
+
+  <div class="register-link ">
+
+    <p class="ion-text-center">
+      Si ya tienes una cuenta<a routerLink="/login"> Inicia Sesión </a>
+    </p>    
+    
+     
+</div>
+      </div>
+  </ion-content>

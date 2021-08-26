@@ -1,0 +1,32 @@
+<ion-content color="primary">
+
+  <ion-slides pager="true" >
+
+    <ion-slide *ngFor="let slide of slides">
+      <div class="img-logo">
+        <img [src]="slide.imgLogo">
+      </div>
+      <div>
+        <h2 [innerHtml]="slide.titulo"></h2>
+      </div>
+
+      <div class="slide-img-padding">
+        <img [src]="slide.img" >
+      </div>
+
+      <div>
+        <h3 [innerHtml]="slide.texto"></h3>
+      </div>
+      
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>
+<ion-footer >
+  <ion-toolbar color="primary" >
+    <ion-label slot="start" (click)="onClick()">Omitir</ion-label>
+    <ion-label slot="end">Siguiente</ion-label>    
+  </ion-toolbar>
+</ion-footer>
+

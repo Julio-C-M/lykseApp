@@ -1,0 +1,100 @@
+.seccion-login {
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin: auto;
+  
+    .img-logo {
+      display:block;
+      margin-top: 10%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 175px;
+      height: 175px;
+      
+    }
+  
+    .login-form {
+      padding: 16px;    
+
+      .form-input {
+        
+          margin-bottom: 10px;
+        --padding-end:22px;
+        --background:primary;
+        --border-color:rgb(189, 186, 186);
+        
+  
+        .start-icons {
+          color: white;
+          position: absolute;
+          top: 4px;
+          font-size: 1.5rem;
+          left: 20px;
+        }
+
+        .eye-icon{
+          color: white;
+          position: relative;
+          top: 28px; 
+          font-size: 1.5rem;
+          }
+        ion-label {
+          color: white;
+          position: absolute;
+          margin-left: 35px;
+          top: 3px;
+        }
+        ion-input {
+          --padding-start: 36px;
+          --padding-end: 0px;
+          --padding-top: 36px;
+          color: white;
+          
+        }
+      }  
+    }
+
+    .texto-forgotpass{
+      align-items: flex-end;
+
+        p{
+          margin-top:0;
+          
+        }
+            
+            a{
+              font-size: small;
+            color:gray;            
+            }
+          }
+
+    .action-button{
+      text-align: center;
+
+          ion-button{          
+            
+            --border-radius:10px;            
+            margin: 0;
+            
+          }
+          // p{
+          //   color: white;
+          //   margin-top: 8px;
+          //   margin-bottom: 8px;
+          // }
+          .register-link{
+            p{margin-top: 50px;}
+            
+            a{
+            color: white;            
+            }
+          }
+    }
+      .text-danger {
+      color: #cf3c4f;
+    }
+    
+  }

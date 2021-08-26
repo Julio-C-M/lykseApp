@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LykSeApp</string>
+    <string name="title_activity_main">LykSeApp</string>
+    <string name="package_name">com.pruebalykse.app</string>
+    <string name="custom_url_scheme">com.pruebalykse.app</string>
+</resources>

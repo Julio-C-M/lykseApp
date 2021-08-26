@@ -1,5 +1,7 @@
 {
   "name": "lykseApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
