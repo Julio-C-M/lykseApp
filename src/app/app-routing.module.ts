@@ -20,6 +20,7 @@ const routes: Routes = [
     path: 'slides-start',
     loadChildren: () => import('./slides-start/slides-start.module').then( m => m.SlidesStartPageModule)
   },
+  
      
 ];
 
