@@ -3,7 +3,7 @@
   <img class="img-logo" src="assets/Logo2.png" alt="">
 
   <ion-text class="ion-text-center">
-    <h2>Iniciar Sesion</h2>
+    <h2>Registro</h2>
   </ion-text>
   
   <div class="login-form " >
@@ -29,7 +29,7 @@
     <ion-item class="form-input " lines="inset">
       <ion-icon class="start-icons" slot="start" name="lock-closed-outline"></ion-icon>
       <ion-label position="floating">Contraseña <span class="text-danger">*</span></ion-label>
-      <ion-input name="password" [type]="showPassword ? 'text' : 'password'"  ></ion-input>
+      <ion-input name="password" [type]="showPassword ? 'text' : 'password'"  ></ion-input> 
       <ion-icon class="eye-icon" slot="end" [name]="passwordToggleIcon" (click)="togglePassword()"></ion-icon>
       
     </ion-item>

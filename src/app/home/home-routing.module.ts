@@ -7,6 +7,10 @@ const routes: Routes = [
     path: '',
     component: HomePage,
   },
+ // {
+   // path: 'perfil-guardia',
+    //loadChildren: () => import('./home.module').then( m => m.HomePageModule)
+  //},
   {
     path: 'perfil-cliente',
     loadChildren: () => import('./perfil-cliente/perfil-cliente.module').then( m => m.PerfilClientePageModule)

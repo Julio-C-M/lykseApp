@@ -11,7 +11,9 @@ const routes: Routes = [
     redirectTo: 'login',
     pathMatch: 'full'
   },
-
+  {
+    path: 'login', loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule)
+  },  
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
@@ -20,6 +22,7 @@ const routes: Routes = [
     path: 'slides-start',
     loadChildren: () => import('./slides-start/slides-start.module').then( m => m.SlidesStartPageModule)
   },
+ 
   
      
 ];
