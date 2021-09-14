@@ -11,7 +11,7 @@
       <ion-avatar class="avatar">
       <img class="avatar" src="assets/img/cliente.png" alt="">
     </ion-avatar>
-    <ion-icon slot="end" color="secondary"name="caret-forward-outline"></ion-icon>
+    <ion-icon routerLink="../datos-perfiles" slot="end" color="secondary"name="caret-forward-outline"></ion-icon>
     <ion-label class="ion-text-center">Edgar Martinez 
       <p>Seguridad e Higiene</p>
       <ion-text color="warning">
@@ -57,7 +57,7 @@
     <ion-row>
       <ion-col>
         
-        <ion-text color="primary"><h3 class="texto-prev">Prevención de Riesgos</h3></ion-text>
+        <ion-text color="primary"><h3 class="texto-prev">PREVENCIÓN DE RIESGOS</h3></ion-text>
 
       
       </ion-col>
@@ -128,6 +128,18 @@
         <ion-item lines="none" class="ion-text-center">
           <ion-icon name="create"></ion-icon>
           <ion-label>Registrar una visita</ion-label>
+          <ion-icon slot="end" name="add-outline"></ion-icon>
+        </ion-item> 
+      </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-card >       
+        <ion-item lines="none" class="ion-text-center">
+          <ion-icon name="stats-chart"></ion-icon>
+          <ion-label>Estadísticas</ion-label>
           <ion-icon slot="end" name="add-outline"></ion-icon>
         </ion-item> 
       </ion-card>

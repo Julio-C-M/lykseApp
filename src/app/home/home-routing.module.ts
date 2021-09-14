@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'perfil-cliente',
     loadChildren: () => import('./perfil-cliente/perfil-cliente.module').then( m => m.PerfilClientePageModule)
+  },  {
+    path: 'datos-perfiles',
+    loadChildren: () => import('./datos-perfiles/datos-perfiles.module').then( m => m.DatosPerfilesPageModule)
   }
+
 ];
 
 @NgModule({
