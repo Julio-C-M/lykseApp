@@ -1,5 +1,5 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar class="ion-text-center ion-padding-end" >
+  <ion-toolbar class="ion-text-center ion-no-padding" >
     <img class="imagen-dogToolbar" slot="start" src="assets/LogoDOg.png" alt="">
     <ion-title>HOME-PERFIL GUARDIA</ion-title>
     <ion-icon slot="end" size="small" name="help-circle-outline"></ion-icon>
@@ -126,18 +126,31 @@
     </ion-button>
   </ion-buttons>
 
-</ion-content>
+  <ion-fab  horizontal="end" vertical="bottom"  slot="fixed" color="secondary">
+    <ion-fab-button size="small" >
+    <ion-icon name="chatbubbles-sharp" color="secondary"></ion-icon>
+  </ion-fab-button>  
+  </ion-fab>
+  
 
-<ion-footer class="ion-no-border">
-  <ion-toolbar class="ion-padding">
+</ion-content>
+<div class="texto-piensa">
+  <img class="img-piensa" src="assets/img/CerebroIcon.png" alt="">
+  <!-- <ion-icon class="icon-chat" color="secondary" slot="start" name="bulb-sharp"></ion-icon> -->
+
+  <ion-text color="primary" >
+  Piensa Con Malicia
+</ion-text>
+</div>
+
+<!-- <ion-footer  class="texto-piensa ">
+  <ion-toolbar  >
     <ion-icon class="icon-chat" color="secondary" slot="start" name="bulb-sharp"></ion-icon>
 
  
-  <ion-title class="ion-no-padding">
-    Piensa Con Malicia
-  </ion-title>
+  
   
   <ion-icon class="icon-chat" color="secondary" slot="end"  name="chatbubbles-sharp"></ion-icon>
 </ion-toolbar>
 
-</ion-footer>
+</ion-footer> -->

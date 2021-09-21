@@ -23,6 +23,17 @@ ion-card {
     
 
     .icon-chat{
-        font-size: 32px;
+        font-size: 16px;
+    }
+    .texto-piensa{       
+        background-color: transparent;
+        ion-text{
+            background-color: transparent;
+            
+        }
+        .img-piensa{
+                width:8%;
+            }
+        
     }
     
