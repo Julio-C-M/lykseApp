@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
+// import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
+  // Mostrar-Ocultar-Contraseña
   showPassword = false;
   passwordToggleIcon = 'eye';
-  constructor() { }
+/** *****************************/
+formEmail = new FormGroup(
+  {
+    email: new FormControl('')
+  });
+  constructor(private router: Router) { }
 ngOnInit() {
   }
   /** mostrar-ocultar-password**/

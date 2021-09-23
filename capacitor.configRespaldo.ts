@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.lykseapp.app',
-  appName: 'lykseApp',
+  appId: 'com.pruebalykse.app',
+  appName: 'LykSeApp',
   webDir: 'www',
   bundledWebRuntime: false,
   cordova: {

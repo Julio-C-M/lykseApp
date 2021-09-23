@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
 @Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss']
+  selector: 'app-consignas',
+  templateUrl: './consignas.page.html',
+  styleUrls: ['./consignas.page.scss'],
 })
-export class Tab2Page {
+export class ConsignasPage implements OnInit {
 
   constructor(
     private http: HttpClient
@@ -18,6 +17,5 @@ export class Tab2Page {
         console.log(res);
       })
     }
-  
 
 }

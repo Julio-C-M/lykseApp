@@ -22,6 +22,29 @@ const routes: Routes = [
     path: 'slides-start',
     loadChildren: () => import('./slides-start/slides-start.module').then( m => m.SlidesStartPageModule)
   },
+  {
+    path: 'panico',
+    loadChildren: () => import('./tabs/panico/panico.module').then( m => m.PanicoPageModule)
+  },
+  {
+    path: 'consignas',
+    loadChildren: () => import('./tabs/consignas/consignas.module').then( m => m.ConsignasPageModule)
+  },
+  {
+    path: 'claves',
+    loadChildren: () => import('./tabs/claves/claves.module').then( m => m.ClavesPageModule)
+  },
+  {
+    path: 'configuracion',
+    loadChildren: () => import('./tabs/configuracion/configuracion.module').then( m => m.ConfiguracionPageModule)
+  },  {
+    path: 'registros-qr',
+    loadChildren: () => import('./registros-qr/registros-qr.module').then( m => m.RegistrosQrPageModule)
+  },
+
+  
+
+
  
   
      

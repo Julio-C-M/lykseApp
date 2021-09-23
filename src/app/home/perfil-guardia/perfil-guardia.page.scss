@@ -1,0 +1,39 @@
+.imagen-dogToolbar{
+    display:block;
+      width: 50px;
+      height: 50px;
+}
+ion-card {
+    border-radius:12px !important;   
+    border: 1px solid #002664;
+    
+    }
+    h1,h2{
+        font-weight: bolder;
+        
+    }
+    .texto-prev{
+        border-bottom: 4px solid #EEB007;
+    }
+    .elementos-grid{
+        ion-card{
+            margin: 0px 10px 5px 10px;
+        }
+    }
+    
+
+    .icon-chat{
+        font-size: 16px;
+    }
+    .texto-piensa{       
+        background-color: transparent;
+        ion-text{
+            background-color: transparent;
+            
+        }
+        .img-piensa{
+                width:8%;
+            }
+        
+    }
+    

@@ -12,12 +12,21 @@ const routes: Routes = [
         loadChildren: () => import('../home/home.module').then(m => m.HomePageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'consignas',
+        loadChildren: () => import('./consignas/consignas.module').then(m => m.ConsignasPageModule)
+      },
+      
+      {
+        path: 'panico',
+        loadChildren: () => import('./panico/panico.module').then(m => m.PanicoPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'claves',
+        loadChildren: () => import('./claves/claves.module').then(m => m.ClavesPageModule)
+      },
+      {
+        path: 'configuracion',
+        loadChildren: () => import('./configuracion/configuracion.module').then(m => m.ConfiguracionPageModule)
       },
       {
         path: '',
