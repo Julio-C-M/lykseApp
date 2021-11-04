@@ -1,1 +1,1 @@
-# ⭐ Proyecto Aplicación Para la Empresa de Seguridad LYKOS 👮
+# ⭐ Aplicación Para la Empresa de Seguridad LYKOS 👮
