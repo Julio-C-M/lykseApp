@@ -3,9 +3,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
+    //Aqui se cambia la pantalla inicial de carga://
     path: '',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () => import('./bienvenida/bienvenida.module').then( m => m.BienvenidaPageModule)
   },
+  /*********************************************** */
   {
     path: '',
     redirectTo: 'login',
@@ -37,9 +39,14 @@ const routes: Routes = [
   {
     path: 'configuracion',
     loadChildren: () => import('./tabs/configuracion/configuracion.module').then( m => m.ConfiguracionPageModule)
-  },  {
+  },
+  {
     path: 'registros-qr',
     loadChildren: () => import('./registros-qr/registros-qr.module').then( m => m.RegistrosQrPageModule)
+  },
+  {
+    path: 'bienvenida',
+    loadChildren: () => import('./bienvenida/bienvenida.module').then( m => m.BienvenidaPageModule)
   },
 
   
