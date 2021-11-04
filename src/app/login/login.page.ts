@@ -14,10 +14,7 @@ export class LoginPage implements OnInit {
   showPassword = false;
   passwordToggleIcon = 'eye';
 /** *****************************/
-formEmail = new FormGroup(
-  {
-    email: new FormControl('')
-  });
+
   constructor(private router: Router) { }
 ngOnInit() {
   }
