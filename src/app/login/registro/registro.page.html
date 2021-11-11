@@ -28,20 +28,20 @@
     </ion-item>
     <ion-item class="form-input" lines="inset">
       <ion-label position="floating">Telefono (10 digitos) <span class="text-danger">*</span></ion-label>
-      <ion-input type="text" name="text" required="true"></ion-input>
+      <ion-input type="number" name="number" required="true"></ion-input>
     </ion-item>
     <ion-item class="form-input" lines="inset">
       <ion-label position="floating">Contraseña <span class="text-danger">*</span></ion-label>
-      <ion-input type="text" name="text" required="true"></ion-input>
+      <ion-input type="password" name="password" required="true"></ion-input>
     </ion-item>
 
 
 
   </form>
   
-    <ion-button class="login-button ion-padding" type="submit" expand="block" color="light">
+    <ion-button class="login-button ion-padding" (click)="OnLogin()" expand="block" color="light">
       <ion-text>
-        Iniciar Sesión
+      CREAR CUENTA
       </ion-text>
     </ion-button>
   

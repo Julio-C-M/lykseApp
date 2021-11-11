@@ -32,19 +32,21 @@
       --border-color: rgb(189, 186, 186);
 
       
-
+/*Estilos de mostrar/ocultar Contraseña*/
       .eye-icon {
         color: white;
         position: relative;
         top: 28px;
         font-size: 1.5rem;
       }
+      /*Color de Letra Formulario Registro*/
       ion-label {
         
         color: white;
         position:initial;
         
       }
+      /*Color de Letra donde se ingresa el texto*/
       ion-input {       
        
         color: white;
