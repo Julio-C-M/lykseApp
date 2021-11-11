@@ -1,39 +1,92 @@
-.imagen-dogToolbar{
-    display:block;
-      width: 50px;
-      height: 50px;
+.imagen-Logo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.card-datos-perfil{
+    ion-avatar{
+        width: 85px;
+        height: 85px;
+    }
 }
 ion-card {
-    border-radius:12px !important;   
-    border: 1px solid #002664;
-    
-    }
-    h1,h2{
-        font-weight: bolder;
-        
-    }
-    .texto-prev{
-        border-bottom: 4px solid #EEB007;
-    }
-    .elementos-grid{
-        ion-card{
-            margin: 0px 10px 5px 10px;
-        }
-    }
-    
+  border-radius: 12px !important; //redondea los cards
+  //border: 1px solid #002664; //agrega bordes a los cards
+}
+h1,
+h2 {
+  font-weight: bolder;
+}
+.cards-izq {
+  box-shadow: none;
+  // border: none;
+  border-style: none;
+}
+.card-ingresos {
+  height: 80%;
+  color: white;
+  background-color: #7da5ca;
+  font-weight: bolder;
 
-    .icon-chat{
+  ion-header {
+      padding: 8px;
+    color: white;
+    background-color: #002664;
+  }
+  ion-card-content {
+    font-size: 9px;
+
+    ion-badge {
+
         font-size: 16px;
-    }
-    .texto-piensa{       
-        background-color: transparent;
-        ion-text{
-            background-color: transparent;
-            
+        position: absolute;
+        top: 5px;
+        right: -15px;
         }
-        .img-piensa{
-                width:8%;
-            }
-        
+  }
+}
+
+.card-preve {
+    font-weight: bolder;
+    color: white;
+  background-color: #7da5ca;
+
+  ion-header {
+      padding: 8px;
+      font-size: 18px;
+      
+    color: white;
+    background-color: #002664;
+  }
+  ion-card-content {
+      padding: unset;
+    font-size: 9px;
+
+    .fila-iconos{
+        padding-top: 22px;
+    }
+    .fila-textos{
+        font-weight: bolder;
+        font-size: 12px;
     }
     
+    ion-col {
+        padding:none;
+    display: flex;
+    justify-content: center;
+
+    ion-avatar{
+        
+        background-color: white;
+    }
+    ion-badge {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        }
+  }
+  }
+  
+}
